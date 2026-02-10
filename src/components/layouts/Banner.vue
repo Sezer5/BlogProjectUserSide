@@ -1,9 +1,11 @@
 <template>
-  <div></div>
+ 
 </template>
 
 <script setup>
+import BannerImg from '../../images/banner.png'
 </script>
 
 <style>
+
 </style>

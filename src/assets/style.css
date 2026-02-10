@@ -8,12 +8,46 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+            /* AÇIK TEMA RENK PALETİ */
+            --primary-color: #3498db;   /* Modern Mavi */
+            --bg-body: #f8f9fa;         /* Sayfa Arka Planı (Çok açık gri) */
+            --bg-card: #ffffff;         /* Kart/Bölüm Arka Planı (Tam Beyaz) */
+            --text-main: #2d3436;       /* Ana Metin Rengi (Koyu Antrasit) */
+            --text-muted: #636e72;      /* İkincil Metin (Gri) */
+            --shadow: 0 10px 30px rgba(0,0,0,0.08); /* Yumuşak Gölge */
+            --transition: all 0.3s ease;
+        }
+
 .headerMainContainer{
     display: flex;
     justify-content: space-between;
-    padding: 20px 3%;
+    align-items: center;
     background-color: rgba(255, 255, 255, 0.95); /* Yarı saydam beyaz */
     backdrop-filter: blur(10px); /* Buzlu cam efekti */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 15px 50px;
+}
+
+.headerLogoContainer{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.headerLogo{
+    width: 40px;
+}
+
+.headerLogoName{
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
 }
 
 .headerMenu{
@@ -23,7 +57,15 @@
 }
 
 .headerMenuItem{
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    color: var(--text-main);
+    transition: var(--transition);
+    text-decoration: none;
+}
 
+.headerMenuItem:hover{
+    color: var(--primary-color);
 }
 
 /* HEADER STYLE CONTENTS HEADER STYLE CONTENTS HEADER STYLE CONTENTS HEADER STYLE CONTENTS HEADER STYLE CONTENTS */
@@ -31,3 +73,10 @@
 /* HEADER STYLE CONTENTS HEADER STYLE CONTENTS HEADER STYLE CONTENTS HEADER STYLE CONTENTS HEADER STYLE CONTENTS */
 /* HEADER STYLE CONTENTS HEADER STYLE CONTENTS HEADER STYLE CONTENTS HEADER STYLE CONTENTS HEADER STYLE CONTENTS */
 /* HEADER STYLE CONTENTS HEADER STYLE CONTENTS HEADER STYLE CONTENTS HEADER STYLE CONTENTS HEADER STYLE CONTENTS */
+
+/* BANNER STYLE CONTENT  BANNER STYLE CONTENT  BANNER STYLE CONTENT  BANNER STYLE CONTENT  BANNER STYLE CONTENT */
+/* BANNER STYLE CONTENT  BANNER STYLE CONTENT  BANNER STYLE CONTENT  BANNER STYLE CONTENT  BANNER STYLE CONTENT */
+/* BANNER STYLE CONTENT  BANNER STYLE CONTENT  BANNER STYLE CONTENT  BANNER STYLE CONTENT  BANNER STYLE CONTENT */
+/* BANNER STYLE CONTENT  BANNER STYLE CONTENT  BANNER STYLE CONTENT  BANNER STYLE CONTENT  BANNER STYLE CONTENT */
+/* BANNER STYLE CONTENT  BANNER STYLE CONTENT  BANNER STYLE CONTENT  BANNER STYLE CONTENT  BANNER STYLE CONTENT */
+

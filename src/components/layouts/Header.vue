@@ -1,8 +1,13 @@
 <template>
   <div class="headerMainContainer">
-    <div class="headerLogo">Simple Logo</div>
+    <div class="headerLogoContainer">
+      <img :src="Image" alt="Sezer Ünalmış Logo" class="headerLogo">
+      <div class="headerLogoName">
+        Sezer Ünalmış
+      </div>
+    </div>
     <div class="headerMenu">
-      <div class="headerMenuItem">Home</div>
+      <RouterLink class="headerMenuItem" to="/">Home</RouterLink>
       <div class="headerMenuItem">About</div>
       <div class="headerMenuItem">Skills</div>
       <div class="headerMenuItem">Work Experience</div>
@@ -13,6 +18,7 @@
 </template>
 
 <script setup>
+import Image from '../../images/tekRenkLogom2.png'
 </script>
 
 <style>
